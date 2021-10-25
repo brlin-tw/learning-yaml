@@ -4,7 +4,7 @@
 # https://pre-commit.com/
 repos:
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: master
+    rev: v1.26.3
     hooks:
       - id: yamllint
         files: \.(yaml|yml|yamllint)$
